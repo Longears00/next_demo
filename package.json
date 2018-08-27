@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "server": "nodemon server/index.js",
     "build": "next build",
     "start": "next start"
   },
@@ -24,6 +23,7 @@
     "express": "^4.16.3",
     "extract-text-webpack-plugin": "^3.0.2",
     "lodash": "^4.17.10",
+    "materialize-css": "^1.0.0-rc.2",
     "next": "^6.1.1",
     "node-sass": "^4.9.3",
     "react": "^16.4.2",

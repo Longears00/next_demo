@@ -1,0 +1,28 @@
+.search-bg {
+    background-image: url(/static/head-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    :first-child {
+        width: 100%
+    }
+}
+
+.search-div {
+    background-color: transparent;
+}
+
+/* label color */
+
+.input-field label {
+    color: white;
+}
+
+/* label focus color */
+
+.input-field input[type=text]:focus+label {
+    color: white;
+}
