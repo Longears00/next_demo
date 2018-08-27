@@ -6,6 +6,7 @@
     display: flex;
     flex-grow: 1;
     align-items: center;
+    background-color: #424242;
     :first-child {
         width: 100%
     }
@@ -25,4 +26,9 @@
 
 .input-field input[type=text]:focus+label {
     color: white;
+}
+
+.video-test {
+    width: 300px;
+    height: 300px;
 }
