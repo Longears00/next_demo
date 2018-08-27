@@ -1,6 +1,7 @@
 import Head from 'next/head';
-import '../themes/main.scss';
 import NavBar from '../components/UI/NavBar';
+import Footer from '../components/UI/Footer';
+import '../themes/main.scss';
 
 let layout = ({ children }) => (
 	<div>
@@ -20,6 +21,7 @@ let layout = ({ children }) => (
 		</Head>
 		<NavBar />
 		{children}
+		<Footer />
 	</div>
 );
 
