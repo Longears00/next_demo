@@ -1,6 +1,4 @@
 import Head from 'next/head';
-import NavBar from '../components/UI/NavBar';
-import Footer from '../components/UI/Footer';
 import '../themes/main.scss';
 
 let layout = ({ children }) => (
@@ -19,9 +17,7 @@ let layout = ({ children }) => (
 			/>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js" />
 		</Head>
-		<NavBar />
 		{children}
-		<Footer />
 	</div>
 );
 
