@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Link from 'next/link';
 
 class NavBar extends Component {
 	componentDidMount() {
@@ -19,13 +20,13 @@ class NavBar extends Component {
 							</a>
 							<ul id="nav-mobile" className="right hide-on-med-and-down">
 								<li>
-									<a href="sass.html">Sass</a>
+									<Link href={{ pathname: '/' }}>Home</Link>
 								</li>
 								<li>
-									<a href="badges.html">Components</a>
+									<Link href={{ pathname: '/' }}>Contact</Link>
 								</li>
 								<li>
-									<a href="collapsible.html">JavaScript</a>
+									<Link href={{ pathname: '/about' }}>About</Link>
 								</li>
 								<li>
 									<a href="" className="btn-floating grey darken-4 z-depth-0">
