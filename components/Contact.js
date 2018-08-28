@@ -6,7 +6,7 @@ class Contact extends Component {
 			<div className="container">
 				<div className="row">
 					<div className="col s12 l6">
-						<h5>Contact us</h5>
+						<span>Contact us</span>
 						<p>
 							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, maiores explicabo! Et
 							harum repellendus reiciendis deserunt iste voluptatum facilis minima ea quae possimus,
@@ -32,8 +32,8 @@ class Contact extends Component {
 								<input type="text" id="date" className="datepicker" />
 								<label htmlFor="date">choose date</label>
 							</div>
-							<a class="waves-effect waves-light btn grey darken-4 right">
-								<i class="material-icons right">send</i>send
+							<a className="waves-effect waves-light btn grey darken-4 right">
+								<i className="material-icons right">send</i>send
 							</a>
 						</form>
 					</div>
