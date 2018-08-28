@@ -8,7 +8,7 @@ class CarList extends Component {
 			<div className="container">
 				<div className="course-title grey-text text-darken-3">
 					<span>测试文字</span>
-					<Link className="grey-text text-darken-3" href={{ pathname: '/list', query: { name: 'Zeit' } }}>
+					<Link href={{ pathname: '/list', query: { name: 'Zeit' } }}>
 						<i className="small material-icons href-more">more_horiz</i>
 					</Link>
 				</div>

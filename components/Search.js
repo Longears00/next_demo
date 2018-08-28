@@ -4,7 +4,7 @@ import styles from '../styles/search.scss';
 class Search extends Component {
 	render() {
 		return (
-			<div className="search-bg">
+			<div className="search-bg valign-wrapper">
 				<div className="row">
 					<form className="col s12">
 						<div className="input-field col s6">

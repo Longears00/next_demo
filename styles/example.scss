@@ -1,0 +1,11 @@
+.vertical-box {
+    height: 200px;
+}
+
+.shadow-depth-div {
+    >div {
+        background-color: #bbdefb;
+        height: 50px;
+        margin-right: 10px;
+    }
+}
