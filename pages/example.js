@@ -16,12 +16,6 @@ const example = () => {
 								Test 2
 							</a>
 						</li>
-						<li className="tab col s3">
-							<a href="#test3">Disabled Tab</a>
-						</li>
-						<li className="tab col s3">
-							<a href="#test4">Test 4</a>
-						</li>
 					</ul>
 				</div>
 				<div id="basic" className="col s12">
@@ -122,15 +116,54 @@ const example = () => {
 							</div>
 						</div>
 					</div>
+					<div className="container">
+						<h4>Cards</h4>
+						<div className="row">
+							<div className="col s6 l6">
+								<div class="card">
+									<div class="card-image">
+										<img src="static/head-bg.jpg" />
+										<span class="card-title">Card Title</span>
+										<a href="" className="halfway-fab btn-floating pink">
+											<i className="material-icons">favorite</i>
+										</a>
+									</div>
+									<div class="card-content">
+										<p>
+											I am a very simple card. I am good at containing small bits of information.
+											I am convenient because I require little markup to use effectively.
+										</p>
+									</div>
+									<div class="card-action">
+										<a href="#">This is a link</a>
+									</div>
+								</div>
+							</div>
+							<div className="col s6 l6">
+								<div class="card">
+									<div class="card-image">
+										<img src="static/head-bg.jpg" />
+										<span class="card-title">Card Title</span>
+										<a href="" className="halfway-fab btn-floating white z-depth-1">
+											<i className="material-icons  pink-text">favorite_border</i>
+										</a>
+									</div>
+									<div class="card-content">
+										<p>
+											I am a very simple card. I am good at containing small bits of information.
+											I am convenient because I require little markup to use effectively.
+										</p>
+									</div>
+									<div class="card-action">
+										<a href="#">This is a link</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div id="test2" className="col s12">
 					Test 2
-				</div>
-				<div id="test3" className="col s12">
-					Test 3
-				</div>
-				<div id="test4" className="col s12">
-					Test 4
 				</div>
 			</div>
 		</ExampleLayout>

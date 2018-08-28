@@ -18,7 +18,7 @@ class CarList extends Component {
 							<div className="card-image">
 								<img src="static/title-bg.jpg" />
 								<span className="card-title">Card Title</span>
-								<a className="btn-floating halfway-fab waves-effect waves-light  blue-grey">
+								<a className="btn-small btn-floating halfway-fab waves-effect waves-light  blue-grey">
 									<i className="small material-icons">add</i>
 								</a>
 							</div>
@@ -33,7 +33,7 @@ class CarList extends Component {
 								<img src="static/title-bg.jpg" />
 
 								<span className="card-title">Card Title</span>
-								<a className="btn-floating halfway-fab waves-effect waves-light blue-grey">
+								<a className="btn-small btn-floating halfway-fab waves-effect waves-light blue-grey">
 									<i className="small material-icons">add</i>
 								</a>
 							</div>
@@ -47,7 +47,7 @@ class CarList extends Component {
 							<div className="card-image">
 								<img src="static/title-bg.jpg" />
 								<span className="card-title">Card Title</span>
-								<a className="btn-floating halfway-fab waves-effect waves-light blue-grey">
+								<a className="btn-small btn-floating halfway-fab waves-effect waves-light blue-grey">
 									<i className="small material-icons">add</i>
 								</a>
 							</div>
@@ -61,7 +61,7 @@ class CarList extends Component {
 							<div className="card-image">
 								<img src="static/title-bg.jpg" />
 								<span className="card-title">Card Title</span>
-								<a className="btn-floating halfway-fab waves-effect waves-light blue-grey">
+								<a className="btn-small btn-floating halfway-fab waves-effect waves-light blue-grey">
 									<i className="small material-icons">add</i>
 								</a>
 							</div>
