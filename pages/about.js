@@ -5,16 +5,18 @@ import '../styles/about.scss';
 export default () => {
 	return (
 		<DefaultLayout>
-			<section className="container section">
+			<section className="container">
 				<div className="row">
 					<div className="card horizontal z-depth-0">
 						<div className="card-image">
-							<img src="static/head-bg.jpg" />
+							<img className="responsive-img materialboxed" src="static/head-bg.jpg" />
 						</div>
 						<div className="card-stacked">
 							<div className="card-content">
-								<span class="card-title">Card Title</span>
-								<p>I am a very simple card. I am good at containing small bits of information.</p>
+								<span className="card-title">Card Title</span>
+								<p className="hide-on-small-only">
+									I am a very simple card. I am good at containing small bits of information.
+								</p>
 							</div>
 						</div>
 					</div>
@@ -24,12 +26,12 @@ export default () => {
 					<div className="card horizontal z-depth-0">
 						<div className="card-stacked">
 							<div className="card-content">
-								<span class="card-title">Card Title</span>
+								<span className="card-title">Card Title</span>
 								<p>I am a very simple card. I am good at containing small bits of information.</p>
 							</div>
 						</div>
 						<div className="card-image">
-							<img src="static/head-bg.jpg" />
+							<img src="static/learn-time.jpg" />
 						</div>
 					</div>
 				</div>
@@ -41,7 +43,7 @@ export default () => {
 						</div>
 						<div className="card-stacked">
 							<div className="card-content">
-								<span class="card-title">Card Title</span>
+								<span className="card-title">Card Title</span>
 								<p>I am a very simple card. I am good at containing small bits of information.</p>
 							</div>
 						</div>
