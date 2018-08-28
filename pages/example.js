@@ -161,6 +161,33 @@ const example = () => {
 							</div>
 						</div>
 					</div>
+					<div className="container">
+						<h4>collections</h4>
+						<ul className="collection with-header">
+							<li className="collection-header">
+								<h4>collection header</h4>
+							</li>
+							<li className="collection-item avatar">
+								<i className="material-icons blue circle">person</i>
+								<span className="title">collection-item</span>
+								<p className="grey-text">sencondary text</p>
+								<a href="" className="secondary-content">
+									<i className="material-icons blue-text">email</i>
+								</a>
+							</li>
+							<li className="collection-item">collection-item</li>
+							<li className="collection-item">collection-item</li>
+						</ul>
+					</div>
+					<div className="container">
+						<h4>Modals</h4>
+						<a href="#terms" className="btn modal-trigger">
+							terms
+						</a>
+						<div className="modal" id="terms">
+							test
+						</div>
+					</div>
 				</div>
 				<div id="test2" className="col s12">
 					Test 2
