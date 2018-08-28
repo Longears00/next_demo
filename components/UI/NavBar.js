@@ -20,13 +20,19 @@ class NavBar extends Component {
 							</a>
 							<ul id="nav-mobile" className="right hide-on-med-and-down">
 								<li>
-									<Link href={{ pathname: '/' }}>Home</Link>
+									<Link href={{ pathname: '/' }}>
+										<a>Home</a>
+									</Link>
 								</li>
 								<li>
-									<Link href={{ pathname: '/' }}>Contact</Link>
+									<Link href={{ pathname: '/' }}>
+										<a>Contact</a>
+									</Link>
 								</li>
 								<li>
-									<Link href={{ pathname: '/about' }}>About</Link>
+									<Link href={{ pathname: '/about' }}>
+										<a>About</a>
+									</Link>
 								</li>
 								<li>
 									<a href="" className="btn-floating grey darken-4 z-depth-0">
