@@ -25,15 +25,14 @@ class NavBar extends Component {
 									</Link>
 								</li>
 								<li>
-									<Link href={{ pathname: '/' }}>
-										<a>Contact</a>
-									</Link>
+									<a href="#contact">Contact</a>
 								</li>
 								<li>
 									<Link href={{ pathname: '/about' }}>
 										<a>About</a>
 									</Link>
 								</li>
+								<li>1</li>
 								<li>
 									<a href="" className="btn-floating grey darken-4 z-depth-0">
 										<i className="material-icons">notifications</i>

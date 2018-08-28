@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Contact extends Component {
 	render() {
 		return (
-			<div className="container">
+			<div className="container scrollspy" id="contact">
 				<div className="row">
 					<div className="col s12 l6">
 						<span>Contact us</span>
