@@ -11,7 +11,8 @@ let layout = ({ children }) => (
 			<meta name="screen-orientation" content="portrait" />
 			<meta name="x5-orientation" content="portrait" />
 
-			<link
+			<script
+				defer
 				rel="stylesheet"
 				href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
 				integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"

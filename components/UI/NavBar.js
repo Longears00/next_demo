@@ -3,12 +3,13 @@ import Link from 'next/link';
 
 class NavBar extends Component {
 	componentDidMount() {
-		console.log('111');
 		let elems = document.querySelectorAll('.sidenav');
+		let instances = M.Sidenav.init(elems, {});
+		instances.isOpen = true;
 	}
 	render() {
 		return (
-			<div>
+			<div className="navbar-fixed">
 				<nav>
 					<div className="nav-wrapper grey darken-3">
 						<div className="container">
@@ -45,13 +46,17 @@ class NavBar extends Component {
 				</nav>
 				<ul id="slide-out" ref={(e) => (this.sidenav = e)} className="sidenav">
 					<li>
-						<a href="sass.html">Sass</a>
+						<Link href={{ pathname: '/' }}>
+							<a>Home</a>
+						</Link>
 					</li>
 					<li>
-						<a href="badges.html">Components</a>
+						<a href="#contact">Contact</a>
 					</li>
 					<li>
-						<a href="collapsible.html">JavaScript</a>
+						<Link href={{ pathname: '/about' }}>
+							<a>About</a>
+						</Link>
 					</li>
 				</ul>
 			</div>
