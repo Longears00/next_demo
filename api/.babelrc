@@ -1,0 +1,34 @@
+{
+    "presets": [
+        "es2015",
+        "stage-0"
+    ],
+    "env": {
+        "development": {
+            "plugins": [
+                "syntax-async-functions",
+                "syntax-dynamic-import",
+                [
+                    "transform-runtime",
+                    {
+                        "polyfill": false,
+                        "regenerator": true
+                    }
+                ]
+            ]
+        },
+        "production": {
+            "plugins": [
+                "syntax-async-functions",
+                "syntax-dynamic-import",
+                [
+                    "transform-runtime",
+                    {
+                        "polyfill": false,
+                        "regenerator": true
+                    }
+                ]
+            ]
+        }
+    }
+}
