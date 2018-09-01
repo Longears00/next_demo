@@ -1,4 +1,6 @@
 const webpack = require('webpack');
+const cssLoaderConfig = require('@zeit/next-css/css-loader-config')
+const commonsChunkConfig = require('@zeit/next-css/commons-chunk-config')
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const withSass = require('@zeit/next-sass');
 
@@ -14,9 +16,6 @@ const nextConfig = {
 		localIdentName: '[local]___[hash:base64:5]'
 	},
 	//extractCSSPlugin: extractSASS,
-	lessLoaderOptions: {
-		javascriptEnabled: true
-	},
 	sassLoaderOptions: {},
 	plugins: {
 		'postcss-css-variables': {}
@@ -43,7 +42,7 @@ module.exports = withSass({
 				importLoaders: 1,
 				localIdentName: '[local]___[hash:base64:5]'
 			},
-			extractCSSPlugin: extractSASS
+			//extractCSSPlugin: extractSASS
 			// sassLoaderOptions   : {},
 			// plugins             : {
 			//   'postcss-css-variables': {}

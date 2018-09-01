@@ -11,7 +11,7 @@ const handle = nextApp.getRequestHandler();
 const app = express();
 async function start() {
 	await nextApp.prepare();
-	app.use(logger('dev'));
+	//app.use(logger('dev'));
 	app.use(bodyParser.json());
 	app.use(bodyParser.urlencoded({ extended: false }));
 	// app.use(cookieParser())
