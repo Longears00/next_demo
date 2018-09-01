@@ -6,7 +6,7 @@ class CarList extends Component {
 	render() {
 		return (
 			<div className="container">
-				<div className="course-title grey-text text-darken-3">
+				<div className={`${styles['course-title']} grey-text text-darken-3`}>
 					<span>测试文字</span>
 					<Link href={{ pathname: '/list', query: { name: 'Zeit' } }}>
 						<i className="small material-icons href-more">more_horiz</i>
