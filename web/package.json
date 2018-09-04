@@ -8,7 +8,8 @@
     "dev-client": "next",
     "dev-server": "cross-env NODE_ENV=development nodemon --exec node -r @babel/register ./server",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "start-micro": "micro -p 3000"
   },
   "keywords": [],
   "author": "",
@@ -25,10 +26,12 @@
     "express": "^4.16.3",
     "lodash": "^4.17.10",
     "materialize-css": "^1.0.0-rc.2",
+    "micro": "^9.3.3",
     "next": "^6.1.1",
     "node-sass": "^4.9.3",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
+    "react-perf-devtool": "^3.1.8",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
     "redux-devtools-extension": "^2.13.5",

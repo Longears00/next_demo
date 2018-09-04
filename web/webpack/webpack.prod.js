@@ -15,7 +15,7 @@ function getExternals() {
 
 module.exports = {
 	target: 'node',
-	//mode     : 'production',
+	mode: 'production',
 	output: {
 		path: DIST,
 		filename: 'index.js'

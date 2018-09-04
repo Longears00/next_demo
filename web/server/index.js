@@ -3,10 +3,16 @@ import { parse } from 'url';
 import Next from 'next';
 import express from 'express';
 import bodyParser from 'body-parser';
+import { json } from 'micro';
 
 const dev = !(process.env.NODE_ENV === 'production');
 const nextApp = Next({ dev });
 const handle = nextApp.getRequestHandler();
+
+module.exports = async (req) => {
+	console.log(await json(req));
+	return 200;
+};
 
 const app = express();
 async function start() {
